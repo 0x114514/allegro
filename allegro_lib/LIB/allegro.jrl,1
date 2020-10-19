@@ -1,0 +1,779 @@
+\t (00:00:01) allegro 15.5 p008 (v15-5-81J) i86
+\t (00:00:01) 
+
+\t (00:00:01) Starting new drawing...
+\t (00:00:01) Grids are drawn 400.0, 400.0 apart for enhanced viewability.
+\i (00:00:01) trapsize 1029
+\i (00:00:01) trapsize 1298
+\i (00:00:01) trapsize 1298
+\i (00:00:05) netin 
+\i (00:00:06) setwindow form.niparams
+\i (00:00:06) FORM niparams capture_netlist YES 
+\i (00:00:07) FORM niparams browse  
+\i (00:00:11) fillin "E:\WORK\test\allegro"
+\i (00:00:12) FORM niparams import  
+\t (00:00:12) Starting Cadence Logic Import...
+\t (00:00:13) Opening existing drawing...
+\t (00:00:13) Grids are drawn 400.0, 400.0 apart for enhanced viewability.
+\i (00:00:13) setwindow pcb
+\i (00:00:13) trapsize 1298
+\i (00:00:16) place manual 
+\i (00:00:17) setwindow form.plc_manual
+\i (00:00:17) FORM plc_manual cancel  
+\i (00:00:19) setwindow pcb
+\i (00:00:19) place manual 
+\i (00:00:20) setwindow form.plc_manual
+\i (00:00:20) FORM plc_manual categories Mechanical symbols 
+\i (00:00:21) FORM plc_manual advanced_settings  
+\i (00:00:21) FORM plc_manual library YES 
+\i (00:00:22) FORM plc_manual placement_list  
+\i (00:00:22) FORM plc_manual tree  'Mechanical symbols' 
+\i (00:00:23) FORM plc_manual tree 'MULTISEL YES' OUTLINE 'Mechanical symbols' 
+\w (00:00:23) Scaled value has been rounded off.
+\w (00:00:23) Scaled value has been rounded off.
+\i (00:00:23) FORM plc_manual tree  OUTLINE 'Mechanical symbols' 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) pick grid 3244.7 986.4
+\t (00:00:25) last pick:  3200.0  1000.0
+\i (00:00:25) setwindow form.plc_manual
+\i (00:00:25) FORM plc_manual done  
+\i (00:00:27) setwindow pcb
+\i (00:00:27) script 
+\f (00:00:28) Select Script to Replay
+\i (00:00:29) fillin "mxp_dra"
+\i (00:00:30) replay E:/WORK/CADENCE_LIB/ALLERGO/mxp_dra.scr 
+\f (00:00:30) Select Script to Replay
+\i (00:00:30) version 15.5 
+\t (00:00:30) Script version: 15.5
+\i (00:00:30) setwindow pcb 
+\i (00:00:30) trapsize 15 
+\i (00:00:30) color 
+\i (00:00:30) FORM cvf_main class_list Geometry
+\i (00:00:30) setwindow form.cvf_main 
+\i (00:00:30) FORM cvf_main class_list Geometry 
+\i (00:00:30) FORM cvf_main class_list Stack-Up 
+\i (00:00:30) FORM cvf_main color24 1 
+\i (00:00:30) FORM cvf_main pin/soldermask_top/color 24 
+\i (00:00:30) FORM cvf_main pin/soldermask_bottom/color 24 
+\i (00:00:30) FORM cvf_main via_class/soldermask_top/visible YES 
+\i (00:00:30) FORM cvf_main via_class/soldermask_bottom/visible YES 
+\i (00:00:30) FORM cvf_main via_class/soldermask_top/color 24 
+\i (00:00:30) FORM cvf_main via_class/soldermask_top/visible NO 
+\i (00:00:30) FORM cvf_main via_class/soldermask_bottom/visible NO 
+\i (00:00:30) FORM cvf_main via_class/soldermask_bottom/color 24 
+\i (00:00:30) FORM cvf_main class_list Geometry 
+\i (00:00:30) FORM cvf_main color5 1 
+\i (00:00:30) FORM cvf_main board_geometry/assembly_top/color 5 
+\e (00:00:30) Form field label not found
+\i (00:00:30) FORM cvf_main board_geometry/assembly_top/visible YES 
+\e (00:00:30) Form field label not found
+\i (00:00:30) FORM cvf_main board_geometry/assembly_bottom/color 5 
+\e (00:00:30) Form field label not found
+\i (00:00:30) FORM cvf_main board_geometry/assembly_bottom/visible YES 
+\e (00:00:30) Form field label not found
+\i (00:00:30) FORM cvf_main color24 1 
+\i (00:00:30) FORM cvf_main board_geometry/dimension/color 24 
+\i (00:00:30) FORM cvf_main color8 1 
+\i (00:00:30) FORM cvf_main board_geometry/silkscreen_top/color 8 
+\i (00:00:30) FORM cvf_main color22 1 
+\i (00:00:30) FORM cvf_main board_geometry/silkscreen_bottom/color 22 
+\i (00:00:30) FORM cvf_main package_geometry/assembly_bottom/color 22 
+\i (00:00:30) FORM cvf_main class_list Components 
+\i (00:00:30) FORM cvf_main ref_des/silkscreen_top/visible YES 
+\i (00:00:30) FORM cvf_main ref_des/silkscreen_bottom/visible YES 
+\i (00:00:30) FORM cvf_main color8 1 
+\i (00:00:30) FORM cvf_main component_value/assembly_top/color 8 
+\i (00:00:30) FORM cvf_main color22 1 
+\i (00:00:30) FORM cvf_main component_value/assembly_bottom/color 22 
+\i (00:00:30) FORM cvf_main color8 1 
+\i (00:00:30) FORM cvf_main device_type/assembly_top/color 8 
+\i (00:00:30) FORM cvf_main tolerance/assembly_top/color 8 
+\i (00:00:30) FORM cvf_main user_part_number/assembly_top/color 8 
+\i (00:00:30) FORM cvf_main color22 1 
+\i (00:00:30) FORM cvf_main device_type/assembly_bottom/color 22 
+\i (00:00:30) FORM cvf_main tolerance/assembly_bottom/color 22 
+\i (00:00:30) FORM cvf_main user_part_number/assembly_bottom/color 22 
+\i (00:00:30) FORM cvf_main tolerance/silkscreen_bottom/color 22 
+\i (00:00:30) FORM cvf_main color8 1 
+\i (00:00:30) FORM cvf_main tolerance/silkscreen_top/color 8 
+\i (00:00:30) FORM cvf_main device_type/assembly_top/visible YES 
+\i (00:00:30) FORM cvf_main device_type/assembly_bottom/visible YES 
+\i (00:00:30) FORM cvf_main device_type/silkscreen_top/visible YES 
+\i (00:00:30) FORM cvf_main device_type/silkscreen_bottom/visible YES 
+\i (00:00:30) FORM cvf_main component_value/assembly_top/visible YES 
+\i (00:00:30) FORM cvf_main component_value/assembly_bottom/visible YES 
+\i (00:00:30) FORM cvf_main component_value/silkscreen_top/visible YES 
+\i (00:00:30) FORM cvf_main component_value/silkscreen_bottom/visible YES 
+\i (00:00:30) FORM cvf_main class_list Manufacturing 
+\i (00:00:30) FORM cvf_main class_list Areas 
+\i (00:00:30) FORM cvf_main color13 1 
+\i (00:00:30) FORM cvf_main color17 1 
+\i (00:00:30) FORM cvf_main route_keepout/top/color 17 
+\i (00:00:30) FORM cvf_main via_keepout/top/color 17 
+\i (00:00:30) FORM cvf_main color13 1 
+\i (00:00:30) FORM cvf_main package_keepin/top/color 13 
+\e (00:00:30) Form field label not found
+\i (00:00:30) FORM cvf_main route_keepin/top/color 13 
+\e (00:00:30) Form field label not found
+\i (00:00:30) FORM cvf_main color17 1 
+\i (00:00:30) FORM cvf_main route_keepout/bottom/color 17 
+\i (00:00:30) FORM cvf_main via_keepout/bottom/color 17 
+\i (00:00:30) FORM cvf_main color13 1 
+\i (00:00:30) FORM cvf_main route_keepin/bottom/color 13 
+\e (00:00:30) Form field label not found
+\i (00:00:30) FORM cvf_main package_keepin/bottom/color 13 
+\e (00:00:30) Form field label not found
+\i (00:00:30) FORM cvf_main color17 1 
+\i (00:00:30) FORM cvf_main route_keepout/all/color 17 
+\i (00:00:30) FORM cvf_main via_keepout/all/color 17 
+\i (00:00:30) FORM cvf_main color13 1 
+\i (00:00:30) FORM cvf_main package_keepin/all/color 13 
+\i (00:00:30) FORM cvf_main route_keepin/all/color 13 
+\i (00:00:30) FORM cvf_main class_list Analysis 
+\i (00:00:30) FORM cvf_main class_list Stack-Up 
+\i (00:00:30) FORM cvf_main read_palette Write Local 
+\i (00:00:30) FORM cvf_main ok 
+\i (00:00:30) setwindow pcb 
+\i (00:00:30) trapsize 1298
+\i (00:00:33) color 
+\i (00:00:33) setwindow form.cvf_main
+\i (00:00:33) FORM cvf_main class_list Geometry
+\i (00:00:34) FORM cvf_main class_list Components 
+\i (00:00:37) FORM cvf_main ok  
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 5139.7 1064.3
+\i (00:00:39) trapsize 649
+\i (00:00:39) zoom in 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 5139.7 1064.3
+\i (00:00:39) trapsize 324
+\i (00:00:40) zoom out 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom out 5139.7 1064.4
+\i (00:00:40) trapsize 649
+\i (00:00:41) roam start
+\i (00:00:41) roam x -32
+\i (00:00:41) roam x -16
+\i (00:00:41) roam y 16
+\i (00:00:41) roam x -32
+\i (00:00:41) roam x -16
+\i (00:00:41) roam y 16
+\i (00:00:41) roam end
+\i (00:00:44) quickplace 
+\i (00:00:46) setwindow form.quickplc
+\i (00:00:46) FORM quickplc place  
+\i (00:00:46) FORM quickplc done  
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 3426.5 2920.3
+\i (00:00:47) trapsize 324
+\i (00:00:47) zoom in 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 3420.0 2933.3
+\i (00:00:47) trapsize 162
+\i (00:00:49) color 
+\i (00:00:49) setwindow form.cvf_main
+\i (00:00:49) FORM cvf_main class_list Geometry
+\i (00:00:55) FORM cvf_main package_geometry/place_bound_top/visible NO 
+\i (00:00:55) FORM cvf_main package_geometry/place_bound_bottom/visible NO 
+\i (00:00:55) FORM cvf_main apply  
+\i (00:00:56) FORM cvf_main ok  
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 3585.5 2780.9
+\i (00:00:56) trapsize 324
+\i (00:00:57) zoom in 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in 3585.5 2800.3
+\i (00:00:57) trapsize 162
+\i (00:00:57) zoom in 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in 3585.5 2868.4
+\i (00:00:57) trapsize 81
+\i (00:00:57) zoom out 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out 3770.5 2978.8
+\i (00:00:57) trapsize 162
+\i (00:00:59) move 
+\t (00:00:59) Select element(s) to move.
+\i (00:01:00) pick grid 3313.0 3079.4
+\t (00:01:00) last pick:  3300.0  3100.0
+\t (00:01:00) last pick:  3260.0  3133.5
+\t (00:01:00) Moving J1 / CON2_SIP2_CON2 / SIP2.
+\t (00:01:00) Pick new location for element(s).
+\i (00:01:01) pick grid 3562.9 2446.6
+\t (00:01:01) last pick:  3600.0  2400.0
+\i (00:01:01) pick grid 3394.1 3092.4
+\t (00:01:01) last pick:  3400.0  3100.0
+\t (00:01:01) last pick:  3375.0  3133.5
+\t (00:01:01) Moving J2 / CON2_SIP2_CON2 / SIP2.
+\t (00:01:01) Pick new location for element(s).
+\i (00:01:02) pick grid 4000.9 2248.7
+\t (00:01:02) last pick:  4000.0  2200.0
+\i (00:01:02) pick grid 3562.9 3024.2
+\t (00:01:02) last pick:  3600.0  3000.0
+\t (00:01:02) last pick:  3492.0  3025.5
+\t (00:01:02) Moving R1 / RES_MR0805_10K / MR0805.
+\t (00:01:02) Pick new location for element(s).
+\i (00:01:03) pick grid 4289.7 2647.8
+\t (00:01:03) last pick:  4300.0  2600.0
+\i (00:01:04) pick grid 3799.7 3034.0
+\t (00:01:04) last pick:  3800.0  3000.0
+\t (00:01:04) last pick:  3702.0  3031.5
+\t (00:01:04) Moving R2 / RES_MR1206_100 / MR1206.
+\t (00:01:04) Pick new location for element(s).
+\i (00:01:05) roam start
+\i (00:01:05) roam y 32
+\i (00:01:05) roam x -16
+\i (00:01:05) roam y 16
+\i (00:01:05) roam x -16
+\i (00:01:05) roam y 48
+\i (00:01:05) roam x -16
+\i (00:01:05) roam y 16
+\i (00:01:05) roam x -16
+\i (00:01:05) roam y 16
+\i (00:01:05) roam y 32
+\i (00:01:05) roam end
+\i (00:01:06) pick grid 4260.5 2248.7
+\t (00:01:06) last pick:  4300.0  2200.0
+\i (00:01:07) pick grid 4004.2 3027.5
+\t (00:01:07) last pick:  4000.0  3000.0
+\t (00:01:07) last pick:  3939.0  3013.5
+\t (00:01:07) Moving R3 / RES_MR0603_5K / MR0603.
+\t (00:01:07) Pick new location for element(s).
+\i (00:01:07) pick grid 4653.1 2248.7
+\t (00:01:07) last pick:  4700.0  2200.0
+\i (00:01:09) zoom in 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom in 4789.4 2157.8
+\i (00:01:09) trapsize 81
+\i (00:01:09) pick grid 4739.1 2187.0
+\t (00:01:09) last pick:  4700.0  2200.0
+\t (00:01:09) Moving R3 / RES_MR0603_5K / MR0603.
+\t (00:01:09) Pick new location for element(s).
+\i (00:01:10) pick grid 4703.4 2148.1
+\t (00:01:10) last pick:  4700.0  2100.0
+\i (00:01:15) pick grid 4659.6 2290.8
+\t (00:01:15) last pick:  4700.0  2300.0
+\t (00:01:15) No element found
+\i (00:01:19) setwindow form.find
+\i (00:01:19) FORM find all_off  
+\i (00:01:20) FORM find text YES 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) pick grid 4769.9 2117.2
+\t (00:01:21) last pick:  4800.0  2100.0
+\t (00:01:21) last pick:  4746.0  2102.0
+\t (00:01:21) Pick new location for element(s).
+\i (00:01:22) pick grid 4782.9 2151.3
+\t (00:01:22) last pick:  4800.0  2200.0
+\i (00:01:23) pick grid 4706.6 2105.9
+\t (00:01:23) last pick:  4700.0  2100.0
+\t (00:01:23) Pick new location for element(s).
+\i (00:01:24) pick grid 4711.5 2149.7
+\t (00:01:24) last pick:  4700.0  2100.0
+\i (00:01:24) pick grid 4714.7 2104.3
+\t (00:01:24) last pick:  4700.0  2100.0
+\t (00:01:24) last pick:  4684.0  2094.0
+\t (00:01:24) Pick new location for element(s).
+\i (00:01:25) pick grid 4696.9 2151.3
+\t (00:01:25) last pick:  4700.0  2200.0
+\i (00:01:43) pick grid 4713.1 2203.2
+\t (00:01:43) last pick:  4700.0  2200.0
+\t (00:01:43) Pick new location for element(s).
+\i (00:01:44) pick grid 4688.8 2149.7
+\t (00:01:44) last pick:  4700.0  2100.0
+\i (00:01:48) pick grid 4129.1 2164.3
+\t (00:01:48) last pick:  4100.0  2200.0
+\t (00:01:48) last pick:  4066.0  2150.0
+\t (00:01:48) Pick new location for element(s).
+\i (00:01:49) pick grid 4101.5 2151.3
+\t (00:01:49) last pick:  4100.0  2200.0
+\i (00:01:50) pick grid 3999.3 2152.9
+\t (00:01:50) last pick:  4000.0  2200.0
+\t (00:01:50) last pick:  4000.0  2150.0
+\t (00:01:50) Pick new location for element(s).
+\i (00:01:51) pick grid 4012.3 2253.5
+\t (00:01:51) last pick:  4000.0  2300.0
+\i (00:01:53) roam start
+\i (00:01:53) roam x -64
+\i (00:01:53) roam x -96
+\i (00:01:53) roam x -32
+\i (00:01:53) roam x -48
+\i (00:01:53) roam y 16
+\i (00:01:53) roam x -32
+\i (00:01:53) roam x -32
+\i (00:01:53) roam x -16
+\i (00:01:53) roam x -16
+\i (00:01:54) roam x 32
+\i (00:01:54) roam x 16
+\i (00:01:54) roam x 16
+\i (00:01:54) roam x 16
+\i (00:01:54) roam x 48
+\i (00:01:54) roam y -16
+\i (00:01:54) roam x 96
+\i (00:01:54) roam x 128
+\i (00:01:54) roam x 16
+\i (00:01:54) roam x 16
+\i (00:01:54) roam y 16
+\i (00:01:54) roam y 16
+\i (00:01:54) roam y 16
+\i (00:01:54) roam x -16
+\i (00:01:55) roam x -16
+\i (00:01:55) roam y -16
+\i (00:01:55) roam x -16
+\i (00:01:55) roam y -16
+\i (00:01:55) roam end
+\i (00:01:56) pick grid 4343.1 2191.8
+\t (00:01:56) last pick:  4300.0  2200.0
+\t (00:01:56) last pick:  4310.0  2190.0
+\t (00:01:56) Pick new location for element(s).
+\i (00:01:56) pick grid 4343.1 2253.5
+\t (00:01:56) last pick:  4300.0  2300.0
+\i (00:01:57) pick grid 4419.4 2201.6
+\t (00:01:57) last pick:  4400.0  2200.0
+\t (00:01:57) last pick:  4435.0  2200.0
+\t (00:01:57) Pick new location for element(s).
+\i (00:02:00) show element 
+\i (00:02:01) setwindow text
+\i (00:02:01) close 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) cancel 
+\i (00:02:05) roam start
+\i (00:02:05) roam x -80
+\i (00:02:05) roam y -16
+\i (00:02:05) roam x -96
+\i (00:02:05) roam x -80
+\i (00:02:05) roam x -32
+\i (00:02:05) roam x -16
+\i (00:02:05) roam x -16
+\i (00:02:05) roam x -16
+\i (00:02:05) roam x -16
+\i (00:02:06) roam end
+\i (00:02:06) cancel 
+\e (00:02:06) No command active
+\i (00:02:07) cancel 
+\e (00:02:07) No command active
+\i (00:02:07) cancel 
+\e (00:02:07) No command active
+\t (00:02:35) Pick To Complete Window.
+\i (00:02:38) cancel 
+\i (00:02:39) show element 
+\i (00:02:41) pick grid 3723.3 2367.1
+\t (00:02:41) last pick:  3700.0  2400.0
+\i (00:02:51) setwindow text
+\i (00:02:51) close 
+\i (00:02:52) setwindow pcb
+\i (00:02:52) pick grid 3626.0 2354.1
+\t (00:02:52) last pick:  3600.0  2400.0
+\i (00:02:54) setwindow text
+\i (00:02:54) close 
+\i (00:02:55) setwindow form.find
+\i (00:02:55) FORM find all_off  
+\i (00:02:55) FORM find text YES 
+\i (00:02:56) setwindow pcb
+\i (00:02:56) pick grid 3728.2 2287.6
+\t (00:02:56) last pick:  3700.0  2300.0
+\t (00:02:56) No element found
+\i (00:02:57) pick grid 3624.4 2350.9
+\t (00:02:57) last pick:  3600.0  2400.0
+\i (00:03:16) zoom center 3600.0 2350.0 
+\t (00:03:16) zoom center on 3600.0 2350.0
+\i (00:03:19) roam start
+\i (00:03:19) roam x 48
+\i (00:03:19) roam x 32
+\i (00:03:19) roam x 32
+\i (00:03:19) roam x 32
+\i (00:03:19) roam x 32
+\i (00:03:19) roam x 32
+\i (00:03:19) roam x 16
+\i (00:03:19) roam x 16
+\i (00:03:19) roam y 16
+\i (00:03:19) roam x -16
+\i (00:03:19) roam y 16
+\i (00:03:20) roam x -16
+\i (00:03:20) roam y 16
+\i (00:03:20) roam end
+\i (00:03:21) pick grid 3724.9 2367.0
+\t (00:03:21) last pick:  3700.0  2400.0
+\i (00:03:23) pick grid 3627.6 2357.3
+\t (00:03:23) last pick:  3600.0  2400.0
+\i (00:03:26) pick grid 3736.3 2363.8
+\t (00:03:26) last pick:  3700.0  2400.0
+\i (00:03:31) pick grid 3622.7 2357.3
+\t (00:03:31) last pick:  3600.0  2400.0
+\i (00:03:33) pick grid 3705.5 2368.6
+\t (00:03:33) last pick:  3700.0  2400.0
+\i (00:03:35) roam start
+\i (00:03:35) roam x 16
+\i (00:03:35) roam y -16
+\i (00:03:35) roam x 16
+\i (00:03:35) roam y -16
+\i (00:03:35) roam x 16
+\i (00:03:35) roam y -16
+\i (00:03:35) roam x 16
+\i (00:03:35) roam x 16
+\i (00:03:35) roam y -16
+\i (00:03:36) roam y -16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam y -16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam y -16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam y 16
+\i (00:03:36) roam y 16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam y 16
+\i (00:03:37) roam x 32
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 32
+\i (00:03:37) roam y -16
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 32
+\i (00:03:38) roam x 32
+\i (00:03:38) roam y 16
+\i (00:03:38) roam x 16
+\i (00:03:38) roam x 16
+\i (00:03:38) roam x 32
+\i (00:03:38) roam x 16
+\i (00:03:38) roam x 16
+\i (00:03:38) roam x 16
+\i (00:03:38) roam end
+\i (00:03:39) pick grid 4725.9 2107.5
+\t (00:03:39) last pick:  4700.0  2100.0
+\i (00:03:40) pick grid 4732.4 2115.6
+\t (00:03:40) last pick:  4700.0  2100.0
+\i (00:03:41) pick grid 4700.0 2117.2
+\t (00:03:41) last pick:  4700.0  2100.0
+\i (00:03:43) roam start
+\i (00:03:43) roam x -32
+\i (00:03:43) roam y -16
+\i (00:03:43) roam x -32
+\i (00:03:43) roam y -16
+\i (00:03:43) roam x -32
+\i (00:03:43) roam y -32
+\i (00:03:43) roam x -32
+\i (00:03:43) roam x -16
+\i (00:03:43) roam y -16
+\i (00:03:43) roam x -16
+\i (00:03:43) roam x -16
+\i (00:03:43) roam end
+\i (00:03:44) pick grid 4325.2 2311.9
+\t (00:03:44) last pick:  4300.0  2300.0
+\i (00:03:45) pick grid 4309.0 2308.7
+\t (00:03:45) last pick:  4300.0  2300.0
+\i (00:03:50) pick grid 4362.6 2178.9
+\t (00:03:50) last pick:  4400.0  2200.0
+\t (00:03:50) No element found
+\i (00:03:52) setwindow form.find
+\i (00:03:52) FORM find all_on  
+\i (00:03:53) setwindow pcb
+\i (00:03:53) pick grid 4386.9 2180.5
+\t (00:03:53) last pick:  4400.0  2200.0
+\i (00:03:55) pick grid 4408.0 2297.3
+\t (00:03:55) last pick:  4400.0  2300.0
+\t (00:03:55) No element found
+\i (00:03:56) pick grid 4364.2 2208.1
+\t (00:03:56) last pick:  4400.0  2200.0
+\t (00:03:56) No element found
+\i (00:03:57) pick grid 4440.4 2243.8
+\t (00:03:57) last pick:  4400.0  2200.0
+\i (00:04:03) roam start
+\i (00:04:04) roam x -16
+\i (00:04:04) roam x -16
+\i (00:04:04) roam y 16
+\i (00:04:04) roam x -16
+\i (00:04:04) roam y 16
+\i (00:04:04) roam x -16
+\i (00:04:04) roam x -16
+\i (00:04:04) roam y 16
+\i (00:04:04) roam y 16
+\i (00:04:04) roam x -16
+\i (00:04:04) roam x -16
+\i (00:04:04) roam y 16
+\i (00:04:04) roam y 16
+\i (00:04:04) roam y 16
+\i (00:04:05) roam x 16
+\i (00:04:05) roam x 16
+\i (00:04:05) roam x 16
+\i (00:04:05) roam x 16
+\i (00:04:05) roam y -16
+\i (00:04:07) roam x 32
+\i (00:04:07) roam x 16
+\i (00:04:07) roam x 48
+\i (00:04:07) roam x 32
+\i (00:04:07) roam x 48
+\i (00:04:07) roam x 64
+\i (00:04:07) roam x 48
+\i (00:04:07) roam x 48
+\i (00:04:07) roam x 16
+\i (00:04:07) roam x 32
+\i (00:04:07) roam x 16
+\i (00:04:07) roam x 16
+\i (00:04:08) roam y 16
+\i (00:04:08) roam x -32
+\i (00:04:08) roam x -16
+\i (00:04:08) roam x -32
+\i (00:04:08) roam x -16
+\i (00:04:08) roam x -16
+\i (00:04:08) roam x -16
+\i (00:04:08) roam x -16
+\i (00:04:08) roam y 16
+\i (00:04:08) roam x -16
+\i (00:04:08) roam x -16
+\i (00:04:09) roam x -16
+\i (00:04:09) roam x -16
+\i (00:04:09) roam x -16
+\i (00:04:09) roam x -16
+\i (00:04:10) roam x -16
+\i (00:04:10) roam x -16
+\i (00:04:10) roam x -48
+\i (00:04:10) roam x -32
+\i (00:04:10) roam x -16
+\i (00:04:10) roam x -16
+\i (00:04:10) roam x -16
+\i (00:04:10) roam x -16
+\i (00:04:10) roam x -16
+\i (00:04:10) roam x -16
+\i (00:04:11) roam end
+\i (00:04:34) setwindow text
+\i (00:04:34) close 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) pick grid 4811.9 2211.3
+\t (00:04:35) last pick:  4800.0  2200.0
+\i (00:04:36) setwindow text
+\i (00:04:36) close 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) cancel 
+\i (00:05:09) open 
+\f (00:05:09) Do you want to save the changes you made to E:/WORK/CADENCE_LIB/LIB/unnamed.brd?
+\i (00:05:11) fillin no 
+\i (00:05:18) fillin "MR1206.dra"
+\t (00:05:18) Opening existing drawing...
+\t (00:05:18) Grids are drawn 32.0, 32.0 apart for enhanced viewability.
+\i (00:05:18) trapsize 24
+\t (00:05:18) Grids are drawn 8.0, 8.0 apart for enhanced viewability.
+\i (00:05:18) trapsize 30
+\i (00:05:18) trapsize 30
+\d (00:05:18) Database opened: E:/WORK/CADENCE_LIB/LIB/MR1206.dra
+\i (00:05:24) show element 
+\i (00:05:26) setwindow form.find
+\i (00:05:26) FORM find all_off  
+\i (00:05:27) FORM find text YES 
+\i (00:05:28) setwindow pcb
+\i (00:05:28) pick grid 9.5 2.3
+\t (00:05:28) last pick:  10.0  2.0
+\i (00:05:32) setwindow text
+\i (00:05:32) close 
+\i (00:05:33) setwindow pcb
+\i (00:05:33) pick grid 47.8 90.3
+\t (00:05:33) last pick:  48.0  90.0
+\t (00:05:33) No element found
+\i (00:05:38) setwindow form.mini
+\i (00:05:38) FORM mini subclass DISPLAY_TOP 
+\i (00:05:40) setwindow pcb
+\i (00:05:40) pick grid 86.7 13.7
+\t (00:05:40) last pick:  86.0  14.0
+\t (00:05:40) No element found
+\i (00:05:41) move 
+\t (00:05:41) Select element(s) to move.
+\i (00:05:44) pick grid 72.9 -31.8
+\t (00:05:44) last pick:  72.0  -32.0
+\t (00:05:44) Element has no origin. Using pick.
+\t (00:05:44) Pick new location for element(s).
+\i (00:05:48) pick grid 60.9 99.2
+\t (00:05:48) last pick:  60.0  100.0
+\i (00:05:49) pick grid 10.1 6.5
+\t (00:05:49) last pick:  10.0  6.0
+\t (00:05:49) last pick:  -18.0  -4.0
+\t (00:05:49) Pick new location for element(s).
+\i (00:05:50) pick grid 217.1 46.0
+\t (00:05:50) last pick:  218.0  46.0
+\i (00:05:52) done 
+\i (00:05:53) show element 
+\i (00:05:53) pick grid 77.7 99.8
+\t (00:05:53) last pick:  78.0  100.0
+\t (00:05:53) No element found
+\i (00:05:54) show element 
+\i (00:05:54) pick grid 74.7 101.6
+\t (00:05:54) last pick:  74.0  102.0
+\t (00:05:54) No element found
+\i (00:06:00) setwindow form.find
+\i (00:06:00) FORM find shapes YES 
+\i (00:06:01) setwindow pcb
+\i (00:06:01) show element 
+\i (00:06:01) pick grid 44.2 147.1
+\t (00:06:01) last pick:  44.0  148.0
+\i (00:10:52) setwindow text
+\i (00:10:52) close 
+\i (00:11:46) setwindow pcb
+\i (00:11:46) move 
+\t (00:11:46) Select element(s) to move.
+\i (00:11:47) pick grid 39.4 124.4
+\t (00:11:47) last pick:  40.0  124.0
+\t (00:11:47) Element has no origin. Using pick.
+\t (00:11:47) Pick new location for element(s).
+\i (00:11:51) pick grid 52.5 -7.9
+\t (00:11:51) last pick:  52.0  -8.0
+\i (00:14:14) pick grid 268.6 117.2
+\t (00:14:14) last pick:  268.0  118.0
+\t (00:14:14) No element found
+\i (00:14:15) pick grid 144.1 110.6
+\t (00:14:15) last pick:  144.0  110.0
+\t (00:14:15) No element found
+\i (00:14:16) pick grid 226.7 53.8
+\t (00:14:16) last pick:  226.0  54.0
+\t (00:14:16) last pick:  218.0  46.0
+\t (00:14:16) Pick new location for element(s).
+\i (00:14:23) pick grid -18.7 -12.7
+\t (00:14:23) last pick:  -18.0  -12.0
+\e (00:14:34) Command not found: Pgdown
+\i (00:14:35) pick grid 34.6 121.4
+\t (00:14:35) last pick:  34.0  122.0
+\t (00:14:35) No element found
+\i (00:14:36) zoom in 
+\i (00:14:36) setwindow pcb
+\i (00:14:36) zoom in 34.6 125.6
+\i (00:14:36) trapsize 15
+\i (00:14:36) zoom out 
+\i (00:14:36) setwindow pcb
+\i (00:14:36) zoom out 37.0 69.9
+\i (00:14:36) trapsize 30
+\i (00:14:36) zoom out 
+\i (00:14:36) setwindow pcb
+\i (00:14:36) zoom out 37.6 70.0
+\i (00:14:36) trapsize 60
+\i (00:14:37) zoom in 
+\i (00:14:37) setwindow pcb
+\i (00:14:37) zoom in 45.9 -82.1
+\i (00:14:37) trapsize 30
+\i (00:14:49) add text 
+\t (00:14:49) Pick text location.
+\i (00:14:51) setwindow form.mini
+\i (00:14:51) FORM mini class COMPONENT VALUE 
+\i (00:14:53) setwindow pcb
+\i (00:14:53) pick grid 112.9 114.2
+\t (00:14:53) last pick:  112.0  114.0
+\t (00:14:53) Enter text string.
+\i (00:14:55) setwindow pcb
+\i (00:14:55) delete 
+\i (00:14:58) setwindow form.find
+\i (00:14:58) FORM find all_off  
+\i (00:14:58) FORM find text YES 
+\i (00:14:59) setwindow pcb
+\i (00:14:59) pick grid 10.6 -6.0
+\t (00:14:59) last pick:  10.0  -6.0
+\t (00:14:59) Text "R*"
+\i (00:15:03) zoom out 
+\i (00:15:03) setwindow pcb
+\i (00:15:03) zoom out 40.5 102.3
+\i (00:15:03) trapsize 60
+\i (00:15:03) zoom in 
+\i (00:15:03) setwindow pcb
+\i (00:15:03) zoom in 38.0 80.8
+\i (00:15:03) trapsize 30
+\i (00:15:04) pick grid 12.3 -4.2
+\t (00:15:04) last pick:  12.0  -4.0
+\t (00:15:04) No element found
+\i (00:15:05) zoom out 
+\i (00:15:05) setwindow pcb
+\i (00:15:05) zoom out 30.8 36.5
+\i (00:15:05) trapsize 60
+\i (00:15:05) zoom in 
+\i (00:15:05) setwindow pcb
+\i (00:15:05) zoom in 15.2 -5.3
+\i (00:15:05) trapsize 30
+\i (00:15:11) done 
+\i (00:15:12) add text 
+\t (00:15:12) Pick text location.
+\i (00:15:15) setwindow form.mini
+\i (00:15:15) FORM mini class REF DES 
+\i (00:15:16) FORM mini subclass ASSEMBLY_TOP 
+\i (00:15:19) setwindow pcb
+\i (00:15:19) pick grid -17.7 -6.5
+\t (00:15:19) last pick:  -18.0  -6.0
+\t (00:15:19) Enter text string.
+\i (00:15:26) setwindow pcb
+\i (00:15:26) pick grid -12.9 112.6
+\t (00:15:26) last pick:  -12.0  112.0
+\i (00:15:26) setwindow pcb
+\i (00:15:26) pick -18.0 -6.0
+\i (00:15:27) oops 
+\t (00:15:27) last pick:  -18.0  -6.0
+\t (00:15:27) Pick text location.
+\i (00:15:32) zoom out 
+\i (00:15:32) setwindow pcb
+\i (00:15:32) zoom out 49.3 -8.9
+\i (00:15:32) trapsize 60
+\i (00:15:32) zoom in 
+\i (00:15:32) setwindow pcb
+\i (00:15:32) zoom in 49.3 -8.9
+\i (00:15:32) trapsize 30
+\i (00:15:34) pick grid -18.9 -12.5
+\t (00:15:34) last pick:  -18.0  -12.0
+\t (00:15:34) Enter text string.
+\i (00:15:36) setwindow pcb
+\i (00:15:36) done 
+\i (00:15:36) setwindow pcb
+\i (00:15:36) pick -18.0 -12.0
+\i (00:15:41) setwindow form.mini
+\i (00:15:41) FORM mini class COMPONENT VALUE 
+\i (00:16:00) setwindow pcb
+\i (00:16:00) add text 
+\t (00:16:00) Pick text location.
+\i (00:16:01) pick grid 105.6 71.3
+\t (00:16:01) last pick:  106.0  72.0
+\t (00:16:01) Enter text string.
+\i (00:16:03) setwindow pcb
+\i (00:16:03) pick 106.0 72.0
+\t (00:16:03) Enter text string.
+\i (00:16:06) done 
+\i (00:16:08) move 
+\t (00:16:08) Select element(s) to move.
+\i (00:16:09) pick grid 11.6 -4.7
+\t (00:16:09) last pick:  12.0  -4.0
+\t (00:16:09) last pick:  -18.0  -12.0
+\t (00:16:09) Pick new location for element(s).
+\i (00:16:11) pick grid -31.5 65.3
+\t (00:16:11) last pick:  -32.0  66.0
+\i (00:16:14) save 
+\f (00:16:14) E:/WORK/CADENCE_LIB/LIB/MR1206.dra: File Exists. Overwrite? 
+\i (00:16:15) fillin yes 
+\t (00:16:15) Symbol 'mr1206.psm' created.
+\i (00:16:17) zoom out 
+\i (00:16:17) setwindow pcb
+\i (00:16:17) zoom out 234.2 -19.7
+\i (00:16:17) trapsize 60
+\i (00:16:17) zoom in 
+\i (00:16:17) setwindow pcb
+\i (00:16:17) zoom in 137.0 -26.8
+\i (00:16:17) trapsize 30
+\i (00:16:23) move 
+\t (00:16:23) Select element(s) to move.
+\i (00:16:23) pick grid 118.4 86.3
+\t (00:16:23) last pick:  118.0  86.0
+\t (00:16:23) last pick:  106.0  72.0
+\t (00:16:23) Pick new location for element(s).
+\i (00:16:26) pick grid 119.0 66.6
+\t (00:16:26) last pick:  120.0  66.0
+\i (00:16:30) done 
+\i (00:16:31) save 
+\f (00:16:31) E:/WORK/CADENCE_LIB/LIB/MR1206.dra: File Exists. Overwrite? 
+\i (00:16:31) fillin yes 
+\t (00:16:32) Symbol 'mr1206.psm' created.
+\i (00:16:34) exit 
