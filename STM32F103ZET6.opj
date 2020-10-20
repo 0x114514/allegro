@@ -1,6 +1,6 @@
 (ExpressProject "STM32F103ZET6"
   (ProjectVersion "19981106")
-  (ProjectType "PCB")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[10/19/20]")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\library1.olb"
@@ -10,10 +10,17 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (Board_sim_option "VHDL_flow"))
+    (Board_sim_option "VHDL_flow")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\ALLEGRO\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (JTAG
       (FullPartName "JTAG.Normal")
       (LibraryName "F:\ALLEGRO_TEST\ALLEGRO\LIBRARY1.OLB")
@@ -32,56 +39,30 @@
       (Path "Design Resources" ".\stm32f103zet6.dsn")
       (Path "Design Resources" ".\stm32f103zet6.dsn" "SCHEMATIC1")
       (Path "Design Resources" ".\stm32f103zet6.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library1.olb")
-      (Select "Design Resources" "Library" ".\library1.olb" "STM32F103ZET6"))
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 421"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 567"))
       (Tab 0))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1714 78 538")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1167 39")
-        (Zoom "252"))
-      (Path "F:\ALLEGRO_TEST\ALLEGRO\LIBRARY1.OLB")
-      (Package "STM32F103ZET6"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1707 104 564")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "3352 549")
-        (Zoom "504"))
-      (Path "F:\ALLEGRO_TEST\ALLEGRO\LIBRARY1.OLB")
-      (Package "2.54mm-15pin*2"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1439 130 590")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "2449 757")
-        (Zoom "486"))
-      (Path "F:\ALLEGRO_TEST\ALLEGRO\LIBRARY1.OLB")
-      (Package "JTAG"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 512")
-        (Scroll "1896 34")
-        (Zoom "216")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1073 28 589")
+        (Scroll "1302 0")
+        (Zoom "200")
         (Occurrence "/"))
-      (Path "F:\ALLEGRO_TEST\ALLEGRO\STM32F103ZET6.DSN")
+      (Path "D:\ALLEGRO\STM32F103ZET6.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (MPSSessionName "8750"))
+  (MPSSessionName "通信1804 王嘉城")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))
